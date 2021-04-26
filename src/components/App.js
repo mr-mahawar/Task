@@ -217,7 +217,7 @@ class App extends React.Component {
 				</div>
 
 				{/* FTX Banner */}
-				<a href="https://ftx.com/" traget="_blank" rel="noreferrer">
+				<a href="https://ftx.com/" target="_blank" rel="noreferrer">
 					<div className="ftx-banner">
 						<img src={ftxBanner} alt="ftxbanner" />
 					</div>
