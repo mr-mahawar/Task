@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Oswald&display=swap');
+
+body {
+	background-color: rgb(25,29,40);
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+
+/* Top Header------------------------------ */
+.top-header {
+	display: flex;
+	align-items: center;
+	padding: 30px 40px 0 40px;
+}
+
+/* Company Logo------------- */
+.company-logo {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.company-logo h1, h3 {
+	margin: 0;
+}
+
+.company-logo a {
+	color: rgb(108,202,203);
+}
+
+.company-logo h1 a {
+	font-size: 50px;
+	font-family: 'Audiowide', cursive;
+	letter-spacing: 3px;
+}
+
+.company-logo h3, h3 a {
+	margin-left: 5px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+}
+
+/* Header Center Content ------------ */
+.header-center-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-self: flex-end;
+	gap: 20px;
+	width: 100%;
+}
+
+.header-center-container select {
+	outline: none;
+	border: none;
+	background: rgba(255, 255, 255, 0.1);
+	color: white;
+	width: 70px;
+	height: 35px;
+	padding: 0 5px 0 5px;
+	border-radius: 10px;
+	font-size: 17px;
+	font-family: 'Oswald', sans-serif !important;
+	transition: .3s;
+	cursor: pointer;
+}
+
+
+.header-center-container select:hover {
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.header-center-container select option {
+	color: black;
+}
+
+.btc-button {
+	background: rgba(255, 255, 255, 0.1);
+	color: white;
+	text-align: center;
+	font-size: 17px;
+	width: 95px;
+	padding: 8px 0 8px 0;
+	border-radius: 10px;
+	transition: .3s;
+}
+
+.btc-button:hover {
+	background: rgba(255, 255, 255, 0.3);
+}
+
+/* Header Right Content ------------------  */
+.header-right-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	align-self: flex-end;
+	gap: 15px;
+	width: 100%;
+}
+
+.refresh-countdown img {
+	height: 45px;
+}
+
+.telegram-button {
+	background-color: rgb(61,198,193);
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 17px;
+	transition: .3s;
+}
+.telegram-button:hover {
+	filter: brightness(110%);
+}
+
+/* Main Content -------------------------------- */
+
+.main-content-container {
+	margin-top: 45px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 100vw;
+}
+
+.main-content-item {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-content-item h1, h2, h4, h5 {
+	margin: 0;
+	font-family: 'Oswald', sans-serif !important;
+	font-weight: normal;
+}
+
+.main-content-item h4, h5 {
+	color: rgb(127,129,135);
+	font-size: 18px;
+}
+
+.main-content-item h2 {
+	color: rgb(108,202,203);
+	font-size: 35px;
+}
+
+.best-price {
+	margin-top: 0;
+	gap: 15px;
+}
+
+.best-price h1{
+	font-size: 84px;
+}
+
+.best-price h2 {
+	color: rgb(127,129,135);
+	font-size: 31px;
+}
+
+/* Finstreet Banner --------------------------------------------- */
+.finstreet-banner {
+	margin: 40px auto 20px auto;
+	width: 95vw;
+	transition: .3s;
+}
+
+.finstreet-banner img {
+	object-fit: contain;
+	width: 100%;
+}
+
+.finstreet-banner:hover {
+	filter: brightness(1.075);
+}
+
+/* Table -------------------------------------------------- */
+
+.info-table {
+	width: 95vw;
+	text-align: center;
+	border-spacing: 0px;
+	margin: 0 auto;
+	border-spacing: 0 15px;
+	font-size: 24px;
+}
+
+.info-table th {
+	color: rgb(127,129,135);
+}
+
+.info-table tr {
+	height: 60px;
+}
+
+.info-table td {
+	background-color: rgba(255, 255, 255, 0.1);
+	font-weight: bold;
+}
+
+.info-table td:first-child, th:first-child {
+	padding-left: 15px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.info-table td:last-child {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.info-table td img {
+	margin-right: 15px;
+	height: 24px;
+	vertical-align: text-bottom;
+	border-radius: 100%;
+}
+
+.red {
+	color: rgb(218,86,80);
+}
+
+.green {
+	color: rgb(93,199,194);
+}
+
+/* FTX Banner --------------------------------------------- */
+.ftx-banner {
+	margin: 40px auto 20px auto;
+	width: 95vw;
+	transition: .3s;
+}
+
+.ftx-banner img {
+	object-fit: contain;
+	width: 100%;
+}
+
+.ftx-banner:hover {
+	filter: brightness(1.075);
+}
+
+/* Footer Section --------------------------------------- */
+.footer-container {
+	width: 100vw;
+	display: flex;
+	gap: 20px;
+	padding: 15px;
+	font-size: 13px;
+	border-top: 2px solid rgba(128, 128, 128, 0.5);
+	border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+	color: grey;
+}
+
+.footer-item:last-of-type{
+	margin-left: auto;
+	margin-right: 20px;
+}
+
+/* Sticky Section -------------------------- */
+.sticky-section {
+	position: fixed;
+	bottom: 0;
+	background-color: rgb(25,29,40);
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+}
+
+
+/* Media Queries ----------------------------------------*/
+@media screen and (max-width: 900px) {
+	/* Header Top------------- */
+	.top-header {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 25px;
+	}
+
+	.company-logo {
+		align-items: center;
+	}
+
+	.header-center-container {
+		align-self: center;
+		justify-content: center;
+		gap: 20px;
+	}
+
+	.header-right-content {
+		align-self: center;
+		justify-content: center;
+	}
+
+	/* Main Content--------------- */
+	.main-content-container {
+		width: 90vw;
+		margin: 35px auto 0 auto;
+	}
+
+	.main-content-item {
+		margin-top: 0;
+		text-align: center;
+	}
+
+	.main-content-item h4, h5 {
+		color: rgb(127,129,135);
+		font-size: 10px;
+	}
+	
+	.main-content-item h2 {
+		color: rgb(108,202,203);
+		font-size: 13px;
+	}
+	
+	.best-price {
+		gap: 10px;
+		width: 140px;
+	}
+
+	.best-price h1{
+		font-size: 18px;
+	}
+	
+	.best-price h2 {
+		color: rgb(127,129,135);
+		font-size: 14px;
+	}
+
+	/* Table--------------------- */
+	.table-container {
+		width: 95vw;
+		margin: 0 10px 0 10px;
+		overflow-x: scroll;
+	}
+
+	.info-table {
+		width: 160vw;
+		font-size: 15px;
+	}
+
+	.info-table tr {
+		height: 30px;
+	}
+
+	.info-table td img {
+		margin-right: 10px;
+		height: 14px;
+	}
+
+	/* Footer Section------------- */
+	.footer-container {
+		gap: 10px;
+		font-size: 11px;
+	}
+}
